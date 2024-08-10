@@ -15,5 +15,5 @@ setup(
         'matplotlib >= 2.2.3',
         'pyyaml >= 3.13'
         'tensorflow >= 1.14.0'
-    ]
+    ],
 )
