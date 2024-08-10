@@ -25,23 +25,23 @@ The recommended installation is to assemble all dependencies in a virtual enviro
 
 To create a new virtual environment, enter at the command line:
 ```bash
-$ python3 -m venv --system-site-packages your-virtual-env-name
+python3 -m venv --system-site-packages your-virtual-env-name
 ```
 where `your-virtual-env-name` is a path to the the virtual environment you would like to create (e.g.: `/home/rwhisp`). Then activate your new virtual environment:
 ```bash
-$ source your-virtual-env-name/bin/activate
+source your-virtual-env-name/bin/activate
 ```
 
 Next, install all dependencies in your virtual environment. 
 
 ```bash
-$ pip install -e git+https://github.com/mattgolub/recurrent-whisperer.git@master#egg=v1.5.0
+pip install -e git+https://github.com/mattgolub/recurrent-whisperer.git@master#egg=v1.5.0
 ```
 
 When you are finished working in your virtual environment, enter:
 
 ```bash
-$ deactivate
+deactivate
 ```
 
 ## Advanced Users
